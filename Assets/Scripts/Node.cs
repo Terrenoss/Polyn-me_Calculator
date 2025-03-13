@@ -1,8 +1,10 @@
+using TMPro;
 using UnityEngine;
 
 public class Node : MonoBehaviour
 {
     public float value;
-    public int power;
+    public string power;
+    public string unity;
     public Node next;
 }
